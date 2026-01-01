@@ -23,10 +23,12 @@ config BT_MAX_PAIRED
     default 6
 
 endif
-//
-//if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
-//
-//config ZMK_SPLIT
-//   default y
 
-//endif
+if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT || SHIELD_TOTEM_DONGLE
+
+config ZMK_SPLIT
+   default y
+
+
+
+endif
