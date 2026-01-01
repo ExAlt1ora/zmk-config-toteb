@@ -137,7 +137,7 @@ label= "SYM"                               ;
 
                 &kp LSHIFT  &kp A       &kp W       &kp D       &kp F           &trans      &kp LEFT    &kp UP      &kp RIGHT   &trans             
                 &kp LCTRL   &kp Q       &kp S       &kp E       &kp R           &trans      &trans      &kp DOWN    &trans      &trans       
-    &LALT       &trans      &trans      &kp H       &trans      &kp I           &trans      &trans      &trans      &trans      &trans      &to BASE         
+    &kp LALT    &trans      &trans      &kp H       &trans      &kp I           &trans      &trans      &trans      &trans      &trans      &to BASE         
                                        &trans      &trans      &kp SPACE         &trans      &trans      &trans      
                         >;
                 };
