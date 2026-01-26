@@ -98,7 +98,7 @@ label= "BASE"                              ;
 label= "NAVI"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃    LEFT   ┃     UP    ┃   RIGHT   ┃     {     ┃          ┃     }      ┃      7      ┃     8      ┃     9      ┃      +     ┃
+//             ┃           ┃    LEFT   ┃     UP    ┃   RIGHT   ┃     {     ┃          ┃     }      ┃      7      ┃     8      ┃     9      ┃      =     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃           ┃           ┃    DOWN   ┃           ┃     [     ┃           ┃     ]     ┃     4     ┃     5     ┃     6     ┃     -     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
@@ -109,9 +109,9 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &to SYM      &kp LEFT    &kp UP      &kp RIGHT   &trans        &trans      &kp N7      &kp N8      &kp N9      &kp PLUS
-                &kp C_VOL_UP &kp SQT     &kp DOWN    &kp EQUAL   &kp LBRC      &kp RBRC    &kp N4      &kp N5      &kp N6      &kp MINUS
-    &trans      &kp C_VOL_DN &trans      &trans      &trans      &kp LPAR      &kp RPAR    &kp N1      &kp N2      &kp N3      &kp KP_MULTIPLY &trans      
+                &to SYM      &kp LEFT    &kp UP      &kp RIGHT   &kp DEL       &trans      &kp N7      &kp N8      &kp N9      &kp EQUAL
+                &kp C_VOL_UP &kp SQT     &kp DOWN    &trans      &kp LBRC      &kp RBRC    &kp N4      &kp N5      &kp N6      &kp MINUS
+    &trans      &kp C_VOL_DN &trans      &trans      &trans      &kp LPAR      &kp RPAR    &kp N1      &kp N2      &kp N3      &kp KP_MULTIPLY &lt ADJ Z      
                                         &kp TAB     &kp RSHIFT  &kp LALT        &trans      &kp N0      &trans      
                         >;
                 };
@@ -161,9 +161,9 @@ label= "ADJ"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &sys_reset  &bt BT_CLR &out OUT_TOG &trans      &trans          &trans      &kp F7      &kp F8      &kp F9      &kp F12
-                &bootloader &bt BT_NXT  &trans      &trans      &trans          &trans      &kp F4      &kp F5      &kp F6      &kp F11  
-    &trans      &trans      &bt BT_PRV  &trans      &trans      &trans          &trans      &kp F1      &kp F2      &kp F3      &kp F10     &trans         
+                &trans      &trans      &trans      &trans      &trans          &trans      &kp F7      &kp F8      &kp F9      &kp F12
+                &trans      &trans      &trans      &trans      &trans          &trans      &kp F4      &kp F5      &kp F6      &kp F11  
+    &trans      &trans      &trans      &trans      &trans      &trans          &trans      &kp F1      &kp F2      &kp F3      &kp F10     &trans         
                                         &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
                 };
