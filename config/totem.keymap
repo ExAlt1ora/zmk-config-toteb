@@ -41,12 +41,7 @@
                 key-positions = <0 1>;
                 bindings = <&kp ESC>;
             };
-            combo_tvp {
-                timeout-ms = <100>;
-                key-positions = <11 12 13>;
-                bindings = <&tog TVP1>;
-            };
-    };
+        };
 
     macros {
         gif: gif {
@@ -173,7 +168,7 @@ label= "ADJ"                               ;
 
                 ter_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "TER"                                    ;
+label= "TER"                             ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃ NEXT FILE ┃ MARK IN   ┃ ROTATE    ┃ MARK OUT  ┃ SHOW SNAP ┃   ┃           ┃           ┃           ┃           ┃           ┃
@@ -189,8 +184,8 @@ label= "TER"                                    ;
 
                 &kp E       &kp A       &kp W       &kp D       &kp H           &none       &none       &none       &none       &none
                 &kp R       &none       &kp S       &kp E       &kp B           &none       &none       &none       &none       &none
-    &kp J       &kp ESC     &none       &trans      &kp M       &kp J           &none       &none       &none       &none       &none       &to BASE        
-                                        &kp LCTRL   &kp LSHFT   &kp SPACE       &none       &none       &none    
+    &kp J       &kp ESC     &none       &none       &kp M       &kp J           &none       &none       &none       &none       &none       &to BASE        
+                                        &kp LCTRL   &kp LSHIFT   &kp SPACE       &none       &none       &none    
                         >;
                 };
 
